@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seguimiento de Criptomonedas</title>
-    <link rel="stylesheet" href="cripto.css">
+    <title>Pokémon Info</title>
+    <link rel="stylesheet" href="pokemon.css">
 </head>
-<body>
+<body class="pokeball-background">
     <div class="container">
-        <h1>Seguimiento de Criptomonedas</h1>
-        <select id="cryptoSelect">
-        </select>
-        <button onclick="fetchCryptoData()">Obtener Datos</button>
-        <div class="crypto-info" id="cryptoInfo"></div>
+        <h1>¡Busca tu Pokémon!</h1>
+        <div class="input-group">
+            <input type="text" id="pokemonName" placeholder="Nombre o ID del Pokémon">
+            <button onclick="fetchPokemon()">Buscar</button>
+        </div>
+        <div class="pokemon-info" id="pokemonInfo"></div>
     </div>
-    <script src="cripto.js"></script>
+    <script src="pokemon.js"></script>
 </body>
 </html>
