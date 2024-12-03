@@ -1,11 +1,9 @@
-/* General Reset */
 body, h1, h2, form, select, input {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
     background: linear-gradient(to bottom, #87CEEB, #f0f8ff);
@@ -14,7 +12,6 @@ body {
     padding: 20px;
 }
 
-/* Encabezados */
 .Titulo {
     font-size: 2rem;
     color: #004080;
@@ -27,7 +24,6 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* Estilo del formulario */
 .Buscador {
     margin: 20px auto;
     background: #ffffff;
@@ -40,14 +36,12 @@ h2 {
     align-items: center;
 }
 
-/* Etiquetas del formulario */
 .Buscador label {
     font-weight: bold;
     font-size: 1rem;
     margin-bottom: 10px;
 }
 
-/* Select */
 .Buscador select {
     width: 100%;
     padding: 10px;
@@ -57,7 +51,6 @@ h2 {
     font-size: 1rem;
 }
 
-/* Botón */
 .Buscador input[type="submit"] {
     padding: 10px 15px;
     font-size: 1rem;
@@ -73,7 +66,6 @@ h2 {
     background-color: #0056b3;
 }
 
-/* Resultado del clima */
 #result {
     margin-top: 20px;
     font-size: 1.2rem;
