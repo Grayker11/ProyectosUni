@@ -1,0 +1,81 @@
+/* General Reset */
+body, h1, h2, form, select, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #87CEEB, #f0f8ff);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Encabezados */
+.Titulo {
+    font-size: 2rem;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #00509E;
+    margin-bottom: 15px;
+}
+
+/* Estilo del formulario */
+.Buscador {
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Etiquetas del formulario */
+.Buscador label {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Select */
+.Buscador select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+/* Botón */
+.Buscador input[type="submit"] {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Buscador input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Resultado del clima */
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
